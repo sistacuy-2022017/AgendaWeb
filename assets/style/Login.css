@@ -1,0 +1,25 @@
+body {
+    background-color: #27374D;
+}
+
+.formulario {
+    background-color: #9DB2BF;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 20vw;
+    height: 60vh;
+    transform: translate(-50%, -50%);
+}
+
+.formulario label, input{
+    text-align: center;
+    display: block;
+}
+
+
+
