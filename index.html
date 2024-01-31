@@ -3,24 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./assets/style/Login.css">
     <title>Login</title>
+    <link rel="stylesheet" href="./assets/style/Login.css">
 </head>
 <body>
-
-    <section class="formulario_login">
-        <div class="formulario">
-            <form  id="loginForm">
-                <label for="username">Usuario: </label>
-                <input type="text" id="username" name="username">
-        
-                <label for="password">Contraseña: </label>
-                <input type="password" id="password" name="password">
-        
-                <button type="submit">IniciarSesion</button>
-            </form>
+    <form id="loginForm">
+        <img src="https://cdn.icon-icons.com/icons2/1154/PNG/512/1486564400-account_81513.png" alt="user-img">
+        <label for="username">Usuarios</label>
+        <input type="text"  id="username" placeholder="Ejemplo" required>
+        <label for="password">Contraseña</label>
+        <input type="password"  id="password" placeholder="Contraseña" required>
+        <div class="box-visible">
+            <input type="checkbox" id="visible">
+            <label for="visible">MostrarContraseña</label>
         </div>
-    </section>
-   
+        <button type="submit" id="submit">Iniciar Sesion</button>
+    </form>
+        <script src="./assets/script/login.js"></script>
 </body>
 </html>
