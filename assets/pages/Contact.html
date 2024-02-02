@@ -5,24 +5,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../style/Contact.css">
-    <title>Document</title>
+    <title>Contacto</title>
 </head>
 
 <body>
 
-    <!-- Estructura de la tabla -->
     <h2>Contactos</h2>
-    <table border="1" id="contactosTable">
-        <tr>
-            <th>Nombre</th>
-            <th>Número</th>
-        </tr>
-    </table>
-    <div class="">
-        <button type="submit" id="submit">mostrar datos</button>
-        <button onclick="redirigir()">Ir a Otra Página</button>
+
+    <div class="div-tabla" id="table">
+
+        <table border="1" id="contactosTable">
+            <tr>
+                <th>Nombre</th>
+                <th>Número</th>
+            </tr>
+        </table>
+
     </div>
 
+    <div class="button-container">
+        <button type="submit" id="submit">mostrar datos</button>
+        <button onclick="redirect()" id="redirectButton">Ir a Otra Página</button>
+    </div>
 
     <script src="../script/Contact.js"></script>
 

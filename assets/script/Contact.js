@@ -10,6 +10,7 @@ document.addEventListener("click", (e) => {
             { nombre: "Pedro Medina", numero: "4546-5025" },
             { nombre: "Davi Areválo", numero: "9875-6021" },
             { nombre: "Usuario Random", numero: "8754-9650" },
+            { nombre: "Usuario Randomx3", numero: "4404-4040" },
         ];
 
         var tabla = document.getElementById("contactosTable");
@@ -23,14 +24,14 @@ document.addEventListener("click", (e) => {
             var celdaNumero = fila.insertCell(1);
 
             // Asignar valores a las celdas
-            celdaNombre.innerHTML = contactos[i].nombre;
-            celdaNumero.innerHTML = contactos[i].numero;
+            celdaNombre.innerHTML = '<a class="sin-decoration" href="./DatosContacto.html">' + contactos[i].nombre + '</a>';
+            celdaNumero.innerHTML = '<a class="sin-decoration" href="./DatosContacto.html">' + contactos[i].numero + '</a>';
         }
     }
 })
 
 function redirect(){
-    window.location.href = "otra_pagina.html";
+    window.location.href = "./otra_pagina.html";
 }
 
 
