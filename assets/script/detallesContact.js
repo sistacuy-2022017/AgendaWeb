@@ -32,3 +32,6 @@ document.addEventListener("click", (e) => {
     }
 })
 
+function cambiarFavorito(){
+    window.location.href = "./favoritos.html";
+}
