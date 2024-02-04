@@ -7,7 +7,7 @@
 .container {
     width: 100%;
     min-height: 100vh;
-    background: linear-gradient(135deg, #153677, #4e085f);
+    background: linear-gradient(135deg, #153677, #974b05);
     padding: 10px;
 }
 .to-do-list {
@@ -50,7 +50,7 @@ button {
     border: none;
     outline: none;
     padding: 16px 50px;
-    background: #ff5945;
+    background: #1F2544;
     color: #fff;
     font-size: 16px;
     cursor: pointer;
